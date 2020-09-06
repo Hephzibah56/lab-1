@@ -1,6 +1,7 @@
 # profile
 Name: Hephzibah Emereole
 Class: WebTech Class Lab 1
+Portfolio website: https://hephzibah56.github.io/lab-1/
 
 # Lab-1 Git Repository Seed
 
