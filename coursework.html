@@ -7,32 +7,55 @@
 </head>
 <body>
 
-    <div style="text-align: right;">
-        <a href="skills.html">Home</a>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+
+          .navigation{
+        position: fixed;
+        background-color: cadetblue;
+        top: 0;
+        right: 0;
+        color: white;
+        width: 100%;
+        text-align: right;
+    }
+
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: cadetblue;
+        color: white;
+        text-align: center;
+    }
+
+    </style>
+
+
+    <div class ="navigation">
+        <a href="index.html">Home</a>
+        <a href="skills.html"style="margin: 0 0 0 10px;">Skills</a>
         <a href="coursework.html" style="margin: 0 0 0 10px;">CS Coursework</a>
         <a href="work.html" style="margin: 0 0 0 10px;">Work</a>
         <a href="projects.html" style="margin: 0 0 0 10px;">Projects</a>
         <a href="extracurricular.html" style="margin: 0 0 0 10px;">Activities</a>
     </div>
 
-
-    <style>
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      
-      td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-      
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-    </style>
       
     <p style="font-size:18px;">   These are the list of my courses taken at Ashesi University from freshman year to my current Junior year. You can click on 
           them to find the description at Ashesi's website. </p>
@@ -71,5 +94,10 @@
     </tr>
 
 </table>
+
+<div class="footer">
+    <p>(C) Hephzibah Emereole 2020   <a href =" https://www.linkedin.com/in/hephzibah-emereole/" > Linkedln</a></p>
+  </div>
+
 </body>
 </html>
